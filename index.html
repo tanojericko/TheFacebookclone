@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TehFacebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-container">
+                <div class="header__content flex">
+                    <div class="logo">
+                       <a href="index.html"> <h1>[ tehfacebook ]</h1></a>
+                    </div>
+                    <div class="nav__links">
+                        <ul class="nav-row">
+                            <li><a href="#"><strong>login</strong></a></li>
+                            <li><a href="register.html"><strong>register</strong></a></li>
+                            <li><a href="#"><strong>about</strong></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="section--container flex-section">
+                <div class="left__section">
+                    <div class="login-container">
+                        <form class="login-flex" action="#" id="loginForm">
+                            <label for="email">Email:</label>
+                            <input type="email" name="" id="email" required>
+                            <label for="pasword">Password:</label>
+                            <input type="password" name="" id="password">
+                        </form>
+                        <div class="button__container">
+                            <button type="button" onclick="submitForm()"><strong>login</strong></button>
+                            <button type="button"><strong>register</strong></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="right__section">
+                    <p class="heading--text">Wecome to Tehfacebook!</p>
+                    <div class="right__section-container">
+                        <div class="right__section--content">
+                            <h1>Welcome to [ Tehfacebook ]</h1>
+                            <p>Tehfacebook is an online directory that connects people through social networks at colleges.</p>
+                            <p>We have opened up Tehfacebook for popular consumption at <strong>Harvard University</strong>.</p>
+                            <div class="customized__content">
+                                <p class="usage">You can use Tehfacebook to:</p>
+                                <ul class="lists">
+                                    <li>Search for people at your school</li>
+                                    <li>Find out who are in your classes</li>
+                                    <li>Look up for friends' friends</li>
+                                    <li>See a visualization of your social network</li>
+                                </ul>
+                            </div>
+                            <p>To get started, click register. If you have already registered, you can log in.</p>
+                        </div>
+                        <div class="button__container1">
+                            <button type="button" onclick="submitForm()"><strong>login</strong></button>
+                            <button type="button"><strong>register</strong></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer--nav row1">
+                <a href="">about</a>
+                <a href="">contact</a>
+                <a href="">faq</a>
+                <a href="">terms</a>
+                <a href="">privacy</a>
+            </div>
+            <div class="footer-message">
+                <p class="mes">a recreation of Jericko James Tano production</p>
+                <p class="target">Tehfacebook © 2004</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function submitForm() {
+            document.getElementById('loginForm').submit();
+        }
+    </script>
+</body>
+</html>
