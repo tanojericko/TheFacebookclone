@@ -4,7 +4,7 @@
 This project is a **front-end-only clone** of the original 2004 Facebook interface, created for educational and nostalgic purposes. It replicates the minimalist design used when Facebook first launched.
 
 ## Preview
-![Tehfacebook Screenshot](./Screenshot 2024-10-16 090714.png)   
+![Tehfacebook Screenshot](./path-to-your-image.png)  
 *Screenshot of the Tehfacebook login page.*
 
 ## Features
